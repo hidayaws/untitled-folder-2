@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f2f2f2;">
+
+    <!-- Container with shadow and wider width -->
+    <div style="box-shadow: 0px 4px 8px rgba(0,0,0,0.1); border-radius: 8px; width: 400px; background-color: #fff;">
+
+        <h2 style="text-align:center; padding-top: 10px;">Student Registration Form</h2>
+
+        <form style="padding: 15px 20px;">
+            <!-- Name -->
+            <div style="margin-bottom: 10px;">
+                <label>Name:</label><br>
+                <input type="text" style="padding: 8px; width: 95%;" required>
+            </div>
+
+            <!-- Email -->
+            <div style="margin-bottom: 10px;">
+                <label>Email:</label><br>
+                <input type="email" style="padding: 8px; width: 95%;" required>
+            </div>
+
+            <!-- Password -->
+            <div style="margin-bottom: 10px;">
+                <label>Password:</label><br>
+                <input type="password" style="padding: 8px; width: 95%;" required>
+            </div>
+
+            <!-- City -->
+            <div style="margin-bottom: 10px;">
+                <label>City:</label><br>
+                <input type="text" style="padding: 8px; width: 95%;">
+            </div>
+
+            <!-- Gender -->
+            <div style="margin-bottom: 10px;">
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male<br>
+                <input type="radio" name="gender"> Female<br>
+                <input type="radio" name="gender"> Other
+            </div>
+
+            <!-- Hobbies -->
+            <div style="margin-bottom: 10px;">
+                <label>Hobbies:</label><br>
+                <input type="checkbox"> Reading<br>
+                <input type="checkbox"> Sports<br>
+                <input type="checkbox"> Music<br>
+                <input type="checkbox"> Travel
+            </div>
+
+            <!-- Submit -->
+            <div style="margin-bottom: 10px;">
+                <input type="submit" value="Register" style="padding: 8px; width: 100%;">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
